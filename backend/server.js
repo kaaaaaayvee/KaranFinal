@@ -2,7 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
-const uri = process.env.MONGODB_URI;
+// const uri = process.env.MONGODB_URI;
+const uri ='mongodb+srv://kaayvee:Canada@1029@cluster0.nidcwj5.mongodb.net/BookList?retryWrites=true&w=majority';
 // connect to your MongoDB Atlas cluster
 
 // create an Express app
