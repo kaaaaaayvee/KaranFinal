@@ -38,7 +38,7 @@ const AddBook = (props) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "http://localhost:3002", // Add this line
+        "Access-Control-Allow-Origin": "*", // Add this line
       },
       body: JSON.stringify({ title, author, description }),
     };

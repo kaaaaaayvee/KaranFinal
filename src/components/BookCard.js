@@ -15,12 +15,7 @@ function BookCard(props) {
         <h3>{author}</h3>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <p style={{ marginTop: "0" }}>{desc}</p>
-          <img
-            src="./cross.jpg"
-            alt="cross"
-            height="20"
-            onClick={handleDelete}
-          ></img>
+          <img src="./cross.jpg" alt="cross" height="20" onClick={handleDelete}></img>
           {/* <a onClick={handleDelete}>Delete</a> */}
         </div>
       </div>
